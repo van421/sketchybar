@@ -6,11 +6,11 @@ zen_on() {
              --set '/cpu.*/' drawing=off \
              --set calendar icon.drawing=off \
              --set separator drawing=off \
-             #--set front_app drawing=off \
              --set volume_icon drawing=off \
-             --set spotify.anchor drawing=off \
-             --set spotify.play updates=off \
-             --set brew drawing=off
+             #--set front_app drawing=off \
+             # --set spotify.anchor drawing=off \
+             # --set spotify.play updates=off \
+             # --set brew drawing=off
 }
 
 zen_off() {
@@ -19,10 +19,10 @@ zen_off() {
              --set '/cpu.*/' drawing=on \
              --set calendar icon.drawing=on \
              --set separator drawing=on \
-             #--set front_app drawing=on \
              --set volume_icon drawing=on \
-             --set spotify.play updates=on \
-             --set brew drawing=on
+             #--set front_app drawing=on \
+             # --set spotify.play updates=on \
+             # --set brew drawing=on
 }
 
 if [ "$1" = "on" ]; then
