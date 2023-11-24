@@ -188,7 +188,7 @@ case $@ in
 "Bitwarden")
   icon_result=":bit_warden:"
   ;;
-"System Preferences" | "System Settings")
+"System Preferences" | "System Settings" | "系统偏好设置")
   icon_result=":gear:"
   ;;
 "Discord" | "Discord Canary" | "Discord PTB")
@@ -218,7 +218,7 @@ case $@ in
 "Canary Mail" | "HEY" | "Mail" | "Mailspring" | "MailMate" | "邮件" | "Outlook")
   icon_result=":mail:"
   ;;
-"Safari" | "Safari Technology Preview")
+"Safari" | "Safari Technology Preview" | "Safari浏览器")
   icon_result=":safari:"
   ;;
 "Telegram")
@@ -245,7 +245,7 @@ case $@ in
 "Spotlight")
   icon_result=":spotlight:"
   ;;
-"Music")
+"Music" | "音乐")
   icon_result=":music:"
   ;;
 "Insomnia")
